@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P06_DoWhileLoop {
+public class P07_DoWhileLoop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Name: ");
