@@ -1,3 +1,4 @@
+// If else-if else statement in java
 import java.util.Scanner;
 
 public class P03_IfElseIfSample {
