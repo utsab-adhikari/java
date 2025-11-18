@@ -1,3 +1,4 @@
+// Ternary Operator in Java
 import java.util.Scanner;
 
 public class P04_TernaryOperator {
