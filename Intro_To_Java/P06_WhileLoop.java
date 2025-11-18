@@ -1,3 +1,4 @@
+// While loop implimentation in java
 import java.util.Scanner;
 
 public class P06_WhileLoop {
