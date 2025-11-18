@@ -1,3 +1,4 @@
+// Switch Statement in java
 import java.util.Scanner;
 public class P05_SwitchStatement 
 {
