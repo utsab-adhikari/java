@@ -1,4 +1,4 @@
-
+// for each loop
 public class P09_ForEachLoop {
     public static void main(String[] args) {
        int i;
