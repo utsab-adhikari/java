@@ -3,7 +3,7 @@ package Basic_Programs;
 
 import java.util.Scanner;
 
-public class P04_Factorial {
+public class P05_Factorial {
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Number:");
