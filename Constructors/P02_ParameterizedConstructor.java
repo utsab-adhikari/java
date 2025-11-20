@@ -1,3 +1,4 @@
+// Parameterized constructor
 package Constructors;
 
 class car {
