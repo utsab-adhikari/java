@@ -25,5 +25,7 @@ public class P05_SwitchStatement
 		}
 		
 		System.out.println("Thank You !");
+        sc.close();
+
 	}
 }

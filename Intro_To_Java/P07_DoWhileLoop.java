@@ -16,6 +16,8 @@ public class P07_DoWhileLoop {
         
         
         System.out.println("Do-While Loop Ends");
+        sc.close();
+
        
     }
 }

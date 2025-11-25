@@ -15,6 +15,8 @@ public class P08_ForLoop {
         
         
         System.out.println("For Loop Ends");
+        sc.close();
+
        
     }
 }

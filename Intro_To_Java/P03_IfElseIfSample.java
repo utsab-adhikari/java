@@ -14,6 +14,7 @@ public class P03_IfElseIfSample {
         } else {
             System.out.println("Try Again");
         }
+        sc.close();
         
     }
 } 

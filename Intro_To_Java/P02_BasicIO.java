@@ -12,6 +12,7 @@ public class P02_BasicIO {
         
         System.out.println("Name: "+Name);
         System.out.println("Roll_No: "+Roll);
+        sc.close();
         
     }
 }

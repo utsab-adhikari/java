@@ -15,6 +15,6 @@ public class P05_Factorial {
             fact = fact * i;
         }
             System.out.println("The Factorial of Number " + temp + " is "+ fact);
-        
+        sc.close();
     }
 }

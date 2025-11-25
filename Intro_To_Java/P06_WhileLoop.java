@@ -16,6 +16,8 @@ public class P06_WhileLoop {
         
         
         System.out.println("While Loop Ends");
+        sc.close();
+
        
     }
 }

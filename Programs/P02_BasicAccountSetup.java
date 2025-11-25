@@ -40,6 +40,8 @@ class Account {
         ammount = ammount + d_amount;
         
         System.out.println(d_amount+" is Deposited to your account");
+        sc.close();
+
         
     }
     
@@ -59,6 +61,8 @@ class Account {
         ammount = ammount - w_amount;
         
         System.out.println(w_amount+" is Withdrawn from your account");
+        sc.close();
+
         
     }
     
@@ -115,8 +119,8 @@ public class P02_BasicAccountSetup
 		            System.out.println("\nInvalid Choice");
 		    }
 		
+			sc.close();
 	    }
-		
 		
 	}
 }

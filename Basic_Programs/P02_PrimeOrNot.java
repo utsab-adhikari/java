@@ -23,5 +23,6 @@ public class P02_PrimeOrNot {
         } else {
             System.out.println("The Number " + temp + " is Not a Prime");
         }
+        sc.close();
     }
 }

@@ -30,8 +30,7 @@ public class P01_VowelChecker {
             default : 
                 System.out.println("The Alphabet is Consonant");
                }
-         
-        
+        sc.close();
         
         
     }

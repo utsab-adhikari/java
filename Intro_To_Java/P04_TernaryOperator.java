@@ -12,5 +12,7 @@ public class P04_TernaryOperator {
         int max = (num1 > num2) ? num1 : num2;
 
         System.out.println("The Max among " + num1 + " and " + num2 + " is " + max);
+        sc.close();
+
     }
 }
