@@ -1,0 +1,113 @@
+# ----------------------------------------
+# OS Files
+# ----------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux temporary files
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------------------------
+# Editor / IDE Files
+# ----------------------------------------
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# ----------------------------------------
+# Java Build Files
+# ----------------------------------------
+
+# Maven
+target/
+log/
+*.log
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ----------------------------------------
+# C / C++ Build Files
+# ----------------------------------------
+
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Static Libraries
+*.a
+*.lib
+
+# Compiled Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Make
+*.d
+
+# ----------------------------------------
+# Logs & Temp
+# ----------------------------------------
+*.log
+*.tmp
+*.temp
+
+# ----------------------------------------
+# Backup Files
+# ----------------------------------------
+*.bak
+*.swp
+*.swo
