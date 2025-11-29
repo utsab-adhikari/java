@@ -1,5 +1,5 @@
 // Simple Vowel Checker Program in Java
-package Programs;
+package Programs.Lab01;
 
 import java.util.Scanner;
 

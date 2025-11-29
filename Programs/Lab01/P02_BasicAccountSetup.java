@@ -6,7 +6,7 @@ is having methods Deposit(), withdraw(), and Get_Balance(). Make the necessary a
 for the data members and return types of the methods. Create objects of Account class and use
 them. */
 
-package Programs;
+package Programs.Lab01;
 
 import java.util.Scanner;
 

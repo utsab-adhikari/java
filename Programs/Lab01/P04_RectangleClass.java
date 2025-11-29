@@ -1,7 +1,7 @@
 /*Write a java program to create Rectangle class with data member length and breadth. Include
 methods getData() and displayArea() in the class. Finally create an object of Rectangle class
 and display its area. */
-package Programs;
+package Programs.Lab01;
 
 import java.util.Scanner;
 

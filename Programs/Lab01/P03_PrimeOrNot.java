@@ -1,5 +1,5 @@
 // Write a program to input a number and display whether it is prime or not.
-package Programs;
+package Programs.Lab01;
 
 import java.util.Scanner;
 

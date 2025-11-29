@@ -1,6 +1,6 @@
 // Write a java program to find sum and average of all elements in an array.
 
-package Programs;
+package Programs.Lab01;
 
 public class P05_SumAndAverageOfArray {
   
