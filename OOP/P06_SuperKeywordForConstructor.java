@@ -13,7 +13,7 @@ class B extends Len {
     int breadth;
     B(int l, int b) {
         super(l);
-        // for constructor call of parent
+        // for constructor call of parent class
         breadth = b;
     }
     
