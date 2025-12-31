@@ -101,7 +101,7 @@ class MyFrame extends JFrame implements ActionListener {
 	}
 }
 
-public class P02_question01UI {
+public class P02_question02UI {
 	public static void main(String arr[]) {
 		new MyFrame();
 	}
