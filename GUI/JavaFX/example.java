@@ -24,7 +24,7 @@ public class  example extends Application {
         root.getChildren().add(b3);
     
         Scene s1 = new Scene(root, 400, 400);
-        primartStage.setScene(s1);
+        primaryStage.setScene(s1);
         primaryStage.setTitle("Javafx example");
         primaryStage.show();
     }
