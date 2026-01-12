@@ -1,4 +1,4 @@
-package Database;
+package Database.UI;
 
 import java.awt.Color;
 import java.sql.PreparedStatement;
@@ -126,7 +126,7 @@ class MyFrame extends JFrame implements ActionListener {
     }
 }
 
-public class P06_DBwithUI {
+public class P01_DBwithUI {
     public static void main(String arr[]) {
        new MyFrame();
     }
