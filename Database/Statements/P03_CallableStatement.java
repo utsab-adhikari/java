@@ -3,7 +3,6 @@ package Database.Statements;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class P03_CallableStatement {
     public static void main(String[] args) {
@@ -21,5 +20,19 @@ public class P03_CallableStatement {
             System.out.println("Connection Error: "+e);
         }
         return null;
+    }
+    public static void callProcedure(int id, String name) {
+        Connection conn = getConnection();
+        CallableStatement cstmt = null;
+        try {
+            String sql = "{call InsertDepartment(?, ?)}";
+            cstmt = conn.prepareCall(sql);
+            cstmt.setInt(1, id);
+            cstmt.setString(2, name);
+            cstmt.execute();
+            System.out.println("Stored Procedure Executed Successfully");
+        } catch (Exception e) {
+            System.out.println("SQL Error: " + e.getMessage());
+        }
     }
 }
