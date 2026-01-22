@@ -10,7 +10,7 @@ import  java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.ResultSet;
 
-public class L07_CRUDConsoleApplication {
+public class L07_CRUDConsoleApplicatio {
     
     public static void main(String arr[]) {
         insertData("Utsab", "BEIT", "2024");

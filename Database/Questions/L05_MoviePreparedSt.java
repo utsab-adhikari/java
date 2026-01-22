@@ -31,7 +31,7 @@ public class L05_MoviePreparedSt {
     public static void addMovies() {
         Connection conn = getConnection();
         try {
-            String sql = "INSERT INTO MOVIE (id, title, genre) VALUES (?, ?, ?)";
+            String sql = "INSERT INTO Movie (id, title, genre) VALUES (?, ?, ?)";
             PreparedStatement pstmt = conn.prepareStatement(sql);
 
             pstmt.setInt(1, 1);
@@ -58,7 +58,7 @@ public class L05_MoviePreparedSt {
     public static void updateMovieGenre(String title, String newGenre) {
         Connection conn = getConnection();
         try {
-            String sql = "UPDATE MOVIE SET genre = ? WHERE title = ?";
+            String sql = "UPDATE Movie SET genre = ? WHERE title = ?";
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, newGenre);
             pstmt.setString(2, title);

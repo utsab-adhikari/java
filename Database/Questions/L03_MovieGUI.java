@@ -80,7 +80,7 @@ class MyFrame extends JFrame implements ActionListener {
     public static Connection getConnection() {
         try {
             String driver = "com.mysql.cj.jdbc.Driver";
-            String dbUrl = "jdbc:mysql://localhost:3306/NCITDB";
+            String dbUrl = "jdbc:mysql://localhost:3306/MRS";
             Class.forName(driver);
             Connection conn = DriverManager.getConnection(dbUrl, "root", "");
             System.out.println("DataBAse Connected Successfully");
@@ -94,7 +94,7 @@ class MyFrame extends JFrame implements ActionListener {
     public static void insertData(int id, String title, String genre, String language, String length) {
         Connection conn = getConnection();
         try {
-            String query = "INSERT INTO movie_table01(id, Title, Genre, Language, Length) VALUES(?, ?, ?, ?, ?)";
+            String query = "INSERT INTO Movie(id, Title, Genre, Language, Length) VALUES(?, ?, ?, ?, ?)";
             PreparedStatement ps = conn.prepareStatement(query);
             ps.setInt(1, id);
             ps.setString(2, title);
