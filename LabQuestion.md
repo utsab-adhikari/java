@@ -25,8 +25,11 @@ Each lab is organized in a separate folder for easy navigation.
 8. **Lab No. 8**  
    👉 [Open Lab 8 Folder](https://github.com/utsab-adhikari/java/tree/main/jsp)
 
-8. **Lab No. 10**  
-   👉 [Open Lab 10 Folder](https://github.com/utsab-adhikari/java/tree/main/DistributedProgrammin/RMI)
+9. **Lab No. 9**  
+   👉 [Open Lab 9 Folder](https://github.com/utsab-adhikari/java/tree/main/DistributedProgramming/TCP)
+
+10. **Lab No. 10**  
+   👉 [Open Lab 10 Folder](https://github.com/utsab-adhikari/java/tree/main/DistributedProgramming/RMI)
 
 ## 👤 Author
 - **Name:** Utsab  
